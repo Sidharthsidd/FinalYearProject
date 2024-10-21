@@ -2,7 +2,7 @@ import React from 'react'
 
 function SpecialDishes() {
   return (
-    <div>SpecialDishes</div>
+    <div className ="section-container my-20"></div>
   )
 }
 
