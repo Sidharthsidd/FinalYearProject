@@ -1,0 +1,8 @@
+//tailwind file 
+add extend vairables to use something  in globally 
+extend: {
+      colors:{
+        blue:"#3333cc",
+      }
+
+//daisiUI  same as a bootstrap library  for building a front end 
