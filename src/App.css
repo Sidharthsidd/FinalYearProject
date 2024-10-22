@@ -2,13 +2,19 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f4ecec; /* Light cream background */
+  color: #333; /* Dark text for readability */
 }
 
 header {
   z-index: 10001 !important;
+  background-color: #ff7f50; /* Coral color for the header */
+  padding: 20px 0; /* Add some padding */
 }
+
 .section-container {
   @apply max-w-screen-2xl container mx-auto xl:px-24 px-4;
+  padding: 20px; /* Add padding for sections */
 }
 
 .subtitle {
@@ -22,8 +28,26 @@ header {
 .heartStar {
   border-radius: 0px 28px 0px 28px;
 }
+
 .active {
   color: rgb(225, 225, 227);
   background: blue;
   border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2c3e50; /* Darker shade for footer */
+  color: #ffffff; /* White text for footer */
+  padding: 20px 0; /* Padding for the footer */
+  text-align: center; /* Center align text in footer */
+}
+
+footer a {
+  color: #ffffff; /* White links */
+  text-decoration: underline; /* Underline links */
+}
+
+footer a:hover {
+  color: #ff7f50; /* Change link color on hover */
 }

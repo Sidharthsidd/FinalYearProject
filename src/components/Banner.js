@@ -3,7 +3,8 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="section-container bg-gradient-to-r from-white via-white to-indigo-500">
+    <div className="section-container bg-gradient-to-r from-indigo-500 via-blue-500 to-green-400">
+
       <div className="py-24 flex flex-col md:flex-row justify-between items-center gap-8 ">
         {/* texts stuff */}
         <div className="md:w-1/2 space-y-8 px-4">

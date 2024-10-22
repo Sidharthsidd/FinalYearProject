@@ -119,7 +119,7 @@ function Navbar() {
                 </ul>
               </div>
               <a href="/" className="btn btn-ghost text-xl">
-                <img src="/logo.jpg" height={50} width={50} alt="logo" />
+                <img src="/images/home/category/logo.avif" height={50} width={50} alt="logo" className ="w-20 h-20 rounded-full"/>
               </a>
             </div>
             <div className="navbar-center hidden lg:flex">

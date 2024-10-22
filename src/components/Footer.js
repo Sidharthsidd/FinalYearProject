@@ -3,9 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10 bg-base-200 xl:px-24 py-10 px-4 text-base-content  ">
+      <footer className="footer p-10 bg-base-200 xl:px-24 py-10 px-4 text-base-content">
         <aside>
-          <img src="/logo.png" alt="" width={80} height={80} />
+          <img src="/images/home/category/logo.avif" alt="" width={80} height={100} className="rounded-3xl"/>
           <p className="my-5 md:w-40">
             FoodApp
             <br />
