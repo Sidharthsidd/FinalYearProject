@@ -113,7 +113,7 @@ const Banner = () => {
                   />
                 </div>
 
-                <p className="text-red">$78.00</p>
+                <p className="text-red">78.00</p>
               </div>
             </div>
           </div>

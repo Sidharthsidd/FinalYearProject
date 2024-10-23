@@ -1,482 +1,525 @@
 [
   {
     "_id": "642c155b2c4774f05c36eeaa",
-    "name": "Haddock",
-    "recipe": "Salad fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-    "image": "/images/home/category/img1.png",
-    "category": "salad",
-    "price": 14.7
-  },
-  {
-    "_id": "642c155b2c4774f05c36eeb9",
-    "name": "Haddock",
-    "recipe": "Drinks fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-    "image": "/images/home/category/img2.png",
-    "category": "drinks",
-    "price": 14.7
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee7c",
-    "name": "Escalope de Veau",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img1.png",
+    "name": "Palak Paneer",
+    "recipe": "Cottage cheese cubes in a spiced spinach sauce.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/palak-paneer-recipe-500x500.jpg",
     "category": "popular",
-    "price": 14.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee88",
-    "name": "Escalope de Veau",
-    "recipe": "Dessert roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "/images/home/category/img1.png",
-    "category": "dessert",
-    "price": 12.5
+    "price": 200.0
   },
   {
     "_id": "642c155b2c4774f05c36ee7a",
-    "name": "Roast Duck Breast",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img2.png",
+    "name": "Butter Chicken",
+    "recipe": "Chicken cooked in a rich and creamy tomato sauce.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/butter-chicken-recipe-500x500.jpg",
     "category": "popular",
-    "price": 14.5
+    "price": 400.0
   },
   {
     "_id": "642c155b2c4774f05c36ee74",
-    "name": "Roast Duck Breast",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img3.png",
+    "name": "Biryani",
+    "recipe": "Aromatic rice dish with spices and marinated meat or vegetables.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/chicken-biryani-recipe-500x500.jpg",
     "category": "popular",
-    "price": 14.5
+    "price": 500.0
   },
   {
     "_id": "642c155b2c4774f05c36ee712",
-    "name": "Roast Duck Breast",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img1.png",
+    "name": "Samosa",
+    "recipe": "Deep-fried pastry filled with spiced potatoes and peas.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/samosa-recipe-500x500.jpg",
     "category": "popular",
-    "price": 14.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee7x",
-    "name": "Roast Duck Breast",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img2.png",
-    "category": "popular",
-    "price": 14.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee8c",
-    "name": "Escalope de Veau",
-    "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "/images/home/category/img3.png",
-    "category": "dessert",
-    "price": 12.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee94",
-    "name": "Escalope de Veau",
-    "recipe": "Pizza roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "/images/home/category/img1.png",
-    "category": "pizza",
-    "price": 12.5
+    "price": 100.0
   },
   {
     "_id": "642c155b2c4774f05c36ee9e",
-    "name": "Breton Fish Stew",
-    "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-    "image": "/images/home/category/img2.png",
-    "category": "pizza",
-    "price": 12.9
+    "name": "Dal Makhani",
+    "recipe": "Slow-cooked black lentils in a creamy sauce.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/dal-makhani-recipe-500x500.jpg",
+    "category": "popular",
+    "price": 250.0
   },
   {
-    "_id": "642c155b2c4774f05c36eea6",
-    "name": "Chicken and Walnut Salad",
-    "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/home/category/img3.png",
-    "category": "salad",
-    "price": 13.5
+    "_id": "642c155b2c4774f05c36ee9e",
+    "name": "Paneer Tikka",
+    "recipe": "Marinated and grilled paneer cubes with spices.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/paneer-tikka-recipe-500x500.jpg",
+    "category": "popular",
+    "price": 300.0
   },
   {
-    "_id": "642c155b2c4774f05c36eeaf",
-    "name": "Escalope de Veau",
-    "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "/images/home/category/img1.png",
-    "category": "soup",
-    "price": 12.5
+    "_id": "642c155b2c4774f05c36ee7x",
+    "name": "Chole Bhature",
+    "recipe": "Spiced chickpeas served with deep-fried bread.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/chole-bhature-recipe-500x500.jpg",
+    "category": "popular",
+    "price": 200.0
   },
   {
-    "_id": "642c155b2c4774f05c36ee89",
-    "name": "Chicken and Walnut Salad",
-    "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/home/category/img2.png",
-    "category": "dessert",
-    "price": 13.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee8a",
-    "name": "Escalope de Veau",
-    "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "/images/home/category/img3.png",
-    "category": "dessert",
-    "price": 12.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee96",
-    "name": "Fish Parmentier",
-    "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/home/category/img1.png",
-    "category": "pizza",
-    "price": 9.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee81",
-    "name": "Tuna Niçoise",
-    "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-    "image": "/images/home/category/img2.png",
-    "category": "offered",
-    "price": 10.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee84",
-    "name": "Roast Duck Breast",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img3.png",
-    "category": "dessert",
-    "price": 14.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36eea4",
-    "name": "Chicken and Walnut Salad",
-    "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/home/category/img1.png",
-    "category": "salad",
-    "price": 13.5
+    "_id": "642c155b2c4774f05c36ee8c",
+    "name": "Aloo Gobi",
+    "recipe": "Spiced potatoes and cauliflower stir-fried with turmeric and cumin.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/aloo-gobi-recipe-500x500.jpg",
+    "category": "popular",
+    "price": 150.0
   },
   {
     "_id": "642c155b2c4774f05c36eea5",
-    "name": "Fish Parmentier",
-    "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/home/category/img2.png",
-    "category": "salad",
-    "price": 9.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee87",
-    "name": "Chicken and Walnut Salad",
-    "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/home/category/img3.png",
-    "category": "dessert",
-    "price": 13.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee83",
-    "name": "Chicken and Walnut Salad",
-    "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/home/category/img1.png",
-    "category": "offered",
-    "price": 13.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee7f",
-    "name": "Roasted Pork Belly",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img2.png",
+    "name": "Tandoori Chicken",
+    "recipe": "Chicken marinated in yogurt and spices, grilled in a tandoor.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/tandoori-chicken-recipe-500x500.jpg",
     "category": "popular",
-    "price": 14.5
+    "price": 350.0
   },
   {
-    "_id": "642c155b2c4774f05c36eea8",
-    "name": "Chicken and Walnut Salad",
-    "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/home/category/img3.png",
-    "category": "salad",
-    "price": 13.5
+    "_id": "642c155b2c4774f05c36ee6b",
+    "name": "Bhindi Masala",
+    "recipe": "Spicy stir-fried okra with onions and spices.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/bhindi-masala-recipe-500x500.jpg",
+    "category": "popular",
+    "price": 180.0
   },
   {
-    "_id": "642c155b2c4774f05c36eeba",
-    "name": "Haddock",
-    "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-    "image": "/images/home/category/img1.png",
-    "category": "drinks",
-    "price": 14.7
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee80",
-    "name": "Roast Duck Breast",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img2.png",
-    "category": "offered",
-    "price": 14.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee90",
-    "name": "Fish Parmentier",
-    "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/home/category/img3.png",
+    "_id": "642c155b2c4774f05c36ee88",
+    "name": "Gulab Jamun",
+    "recipe": "Fried dough balls soaked in sugar syrup flavored with cardamom and rose water.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/gulab-jamun-recipe-500x500.jpg",
     "category": "dessert",
-    "price": 9.5
+    "price": 80.0
   },
   {
-    "_id": "642c155b2c4774f05c36eeb0",
-    "name": "Chicken and Walnut Salad",
-    "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/home/category/img1.png",
-    "category": "soup",
-    "price": 13.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee8d",
-    "name": "Chicken and Walnut Salad",
-    "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/home/category/img2.png",
+    "_id": "642c155b2c4774f05c36eec4",
+    "name": "Kheer",
+    "recipe": "Creamy rice pudding flavored with cardamom and garnished with nuts.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/kheer-recipe-500x500.jpg",
     "category": "dessert",
-    "price": 13.5
+    "price": 100.0
   },
   {
-    "_id": "642c155b2c4774f05c36ee8e",
-    "name": "Escalope de Veau",
-    "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "/images/home/category/img3.png",
+    "_id": "642c155b2c4774f05c36eeaf",
+    "name": "Rasgulla",
+    "recipe": "Soft cheese balls soaked in sugar syrup.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/rasgulla-recipe-500x500.jpg",
     "category": "dessert",
-    "price": 12.5
+    "price": 80.0
   },
   {
-    "_id": "642c155b2c4774f05c36eea7",
-    "name": "Fish Parmentier",
-    "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/home/category/img2.png",
-    "category": "salad",
-    "price": 9.5
+    "_id": "642c155b2c4774f05c36eec6",
+    "name": "Barfi",
+    "recipe": "Fudge made with condensed milk and flavored with cardamom.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/barfi-recipe-500x500.jpg",
+    "category": "dessert",
+    "price": 90.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36eec7",
+    "name": "Peda",
+    "recipe": "Sweet made with condensed milk, flavored with cardamom.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/peda-recipe-500x500.jpg",
+    "category": "dessert",
+    "price": 70.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36eec8",
+    "name": "Mysore Pak",
+    "recipe": "Sweet made with chickpea flour, ghee, and sugar.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/mysore-pak-recipe-500x500.jpg",
+    "category": "dessert",
+    "price": 90.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36eea4",
+    "name": "Chum Chum",
+    "recipe": "Cheese balls soaked in flavored sugar syrup.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/chum-chum-recipe-500x500.jpg",
+    "category": "dessert",
+    "price": 85.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36eec5",
+    "name": "Ras Malai",
+    "recipe": "Soft cheese dumplings in creamy milk.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/rasmalai-recipe-500x500.jpg",
+    "category": "dessert",
+    "price": 120.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36eec0",
+    "name": "Sandesh",
+    "recipe": "A Bengali dessert made with fresh cheese.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/sandesh-recipe-500x500.jpg",
+    "category": "dessert",
+    "price": 80.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee89",
+    "name": "Pani Puri",
+    "recipe": "Crispy puris filled with spicy tamarind water.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/pani-puri-recipe-500x500.jpg",
+    "category": "snack",
+    "price": 120.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee88",
+    "name": "Dhokla",
+    "recipe": "Steamed savory cake made from fermented chickpea flour.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/dhokla-recipe-500x500.jpg",
+    "category": "snack",
+    "price": 80.0
   },
   {
     "_id": "642c155b2c4774f05c36ee99",
-    "name": "Goats Cheese Pizza",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img1.png",
-    "category": "pizza",
-    "price": 14.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36eeb3",
-    "name": "Fish Parmentier",
-    "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/home/category/img3.png",
-    "category": "soup",
-    "price": 9.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36eeb5",
-    "name": "Fish Parmentier",
-    "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/home/category/img1.png",
-    "category": "soup",
-    "price": 9.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36eeb6",
-    "name": "Haddock",
-    "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-    "image": "/images/home/category/img2.png",
-    "category": "soup",
-    "price": 14.7
-  },
-  {
-    "_id": "642c155b2c4774f05c36eeb8",
-    "name": "Haddock",
-    "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-    "image": "/images/home/category/img3.png",
-    "category": "soup",
-    "price": 14.7
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee7e",
-    "name": "Fish Parmentier",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img1.png",
-    "category": "popular",
-    "price": 14.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee8b",
-    "name": "Chicken and Walnut Salad",
-    "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/home/category/img2.png",
-    "category": "dessert",
-    "price": 13.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee8f",
-    "name": "Chicken and Walnut Salad",
-    "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/home/category/img3.png",
-    "category": "dessert",
-    "price": 13.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee91",
-    "name": "Haddock",
-    "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans",
-    "image": "/images/home/category/img1.png",
-    "category": "dessert",
-    "price": 14.7
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee97",
-    "name": "Haddock",
-    "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-    "image": "/images/home/category/img2.png",
-    "category": "pizza",
-    "price": 14.7
+    "name": "Aloo Tikki",
+    "recipe": "Spicy potato fritters served with chutney.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/aloo-tikki-recipe-500x500.jpg",
+    "category": "snack",
+    "price": 100.0
   },
   {
     "_id": "642c155b2c4774f05c36eea0",
-    "name": "Roasted Pork Belly",
-    "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-    "image": "/images/home/category/img3.png",
-    "category": "pizza",
-    "price": 14.5
+    "name": "Pakora",
+    "recipe": "Vegetables dipped in batter and deep-fried.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/pakora-recipe-500x500.jpg",
+    "category": "snack",
+    "price": 90.0
   },
   {
-    "_id": "642c155b2c4774f05c36eea9",
-    "name": "Fish Parmentier",
-    "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/home/category/img1.png",
-    "category": "salad",
-    "price": 9.5
+    "_id": "642c155b2c4774f05c36eea1",
+    "name": "Sev Puri",
+    "recipe": "Crispy flat puris topped with potatoes and chutneys.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/sev-puri-recipe-500x500.jpg",
+    "category": "snack",
+    "price": 110.0
   },
   {
-    "_id": "642c155b2c4774f05c36ee85",
-    "name": "Tuna Niçoise",
-    "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-    "image": "/images/home/category/img2.png",
-    "category": "dessert",
-    "price": 10.5
+    "_id": "642c155b2c4774f05c36eea2",
+    "name": "Bhaji",
+    "recipe": "Spicy potato and onion fritters.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/bhaji-recipe-500x500.jpg",
+    "category": "snack",
+    "price": 100.0
   },
   {
-    "_id": "642c155b2c4774f05c36ee93",
-    "name": "Tuna Niçoise",
-    "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-    "image": "/images/home/category/img3.png",
-    "category": "pizza",
-    "price": 10.5
+    "_id": "642c155b2c4774f05c36eea3",
+    "name": "Chakli",
+    "recipe": "Crispy spiral snacks made with rice flour.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/chakli-recipe-500x500.jpg",
+    "category": "snack",
+    "price": 120.0
   },
   {
-    "_id": "642c155b2c4774f05c36ee95",
-    "name": "Chicken and Walnut Salad",
-    "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/home/category/img1.png",
-    "category": "pizza",
-    "price": 13.5
+    "_id": "642c155b2c4774f05c36eea4",
+    "name": "Kachori",
+    "recipe": "Deep-fried pastry filled with spiced lentils.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/kachori-recipe-500x500.jpg",
+    "category": "snack",
+    "price": 90.0
   },
   {
-    "_id": "642c155b2c4774f05c36ee9b",
-    "name": "Goats Cheese Pizza",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img1.png",
-    "category": "pizza",
-    "price": 14.5
+    "_id": "642c155b2c4774f05c36eea5",
+    "name": "Chivda",
+    "recipe": "Spiced rice flakes with peanuts and dried fruits.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/chivda-recipe-500x500.jpg",
+    "category": "snack",
+    "price": 80.0
   },
   {
-    "_id": "642c155b2c4774f05c36eeb7",
-    "name": "Fish Parmentier",
-    "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/home/category/img1.png",
+    "_id": "642c155b2c4774f05c36ee6d",
+    "name": "Masala Chai",
+    "recipe": "Spiced tea brewed with milk and sugar.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/masala-chai-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 30.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee6e",
+    "name": "Lassi",
+    "recipe": "Yogurt-based drink, can be sweet or savory.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/lassi-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 60.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee6f",
+    "name": "Filter Coffee",
+    "recipe": "South Indian coffee brewed using a traditional filter.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/filter-coffee-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 50.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee7f",
+    "name": "Mango Lassi",
+    "recipe": "A sweet mango-flavored yogurt drink.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/mango-lassi-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 70.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee78",
+    "name": "Thandai",
+    "recipe": "Cold milk drink flavored with nuts and spices.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/thandai-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 80.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee6a",
+    "name": "Nimbu Pani",
+    "recipe": "Refreshing lemonade with spices.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/nimbu-pani-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 30.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee65",
+    "name": "Coconut Water",
+    "recipe": "Natural drink from green coconuts.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/coconut-water-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 50.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee62",
+    "name": "Masala Lemonade",
+    "recipe": "Spiced lemonade with a hint of salt.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/masala-lemonade-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 40.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee63",
+    "name": "Sweet Lime Juice",
+    "recipe": "Freshly squeezed juice from sweet limes.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/sweet-lime-juice-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 40.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee6f",
+    "name": "Tomato Soup",
+    "recipe": "Creamy soup made with fresh tomatoes and herbs.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/tomato-soup-recipe-500x500.jpg",
     "category": "soup",
-    "price": 9.5
+    "price": 90.0
   },
   {
-    "_id": "642c155b2c4774f05c36ee9c",
-    "name": "Breton Fish Stew",
-    "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-    "image": "/images/home/category/img1.png",
-    "category": "pizza",
-    "price": 12.9
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee9d",
-    "name": "Goats Cheese Pizza",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img1.png",
-    "category": "pizza",
-    "price": 14.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36eeac",
-    "name": "Roasted Pork Belly",
-    "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-    "image": "/images/home/category/img1.png",
-    "category": "salad",
-    "price": 14.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36eeb4",
-    "name": "Haddock",
-    "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-    "image": "/images/home/category/img1.png",
+    "_id": "642c155b2c4774f05c36ee70",
+    "name": "Minestrone Soup",
+    "recipe": "Italian vegetable soup with pasta.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/minestrone-soup-recipe-500x500.jpg",
     "category": "soup",
-    "price": 14.7
+    "price": 100.0
   },
   {
-    "_id": "642c155b2c4774f05c36ee98",
-    "name": "Breton Fish Stew",
-    "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-    "image": "/images/home/category/img1.png",
+    "_id": "642c155b2c4774f05c36ee71",
+    "name": "Lentil Soup",
+    "recipe": "Hearty soup made with lentils and spices.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/lentil-soup-recipe-500x500.jpg",
+    "category": "soup",
+    "price": 80.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee72",
+    "name": "Mushroom Soup",
+    "recipe": "Creamy soup made with mushrooms and herbs.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/mushroom-soup-recipe-500x500.jpg",
+    "category": "soup",
+    "price": 100.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee73",
+    "name": "Margherita Pizza",
+    "recipe": "Classic pizza topped with tomatoes, mozzarella, and basil.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/margherita-pizza-recipe-500x500.jpg",
     "category": "pizza",
-    "price": 12.9
+    "price": 300.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee74",
+    "name": "Pepperoni Pizza",
+    "recipe": "Spicy pepperoni slices on a cheesy pizza base.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/pepperoni-pizza-recipe-500x500.jpg",
+    "category": "pizza",
+    "price": 350.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee75",
+    "name": "Vegetarian Pizza",
+    "recipe": "Loaded with fresh vegetables and cheese.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/vegetarian-pizza-recipe-500x500.jpg",
+    "category": "pizza",
+    "price": 320.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee76",
+    "name": "BBQ Chicken Pizza",
+    "recipe": "Pizza topped with BBQ chicken, cheese, and onions.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/bbq-chicken-pizza-recipe-500x500.jpg",
+    "category": "pizza",
+    "price": 360.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee77",
+    "name": "Cold Coffee",
+    "recipe": "Chilled coffee blended with milk and sugar.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/cold-coffee-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 70.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee78",
+    "name": "Hot Chocolate",
+    "recipe": "Rich and creamy hot chocolate made with cocoa.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/hot-chocolate-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 80.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee79",
+    "name": "Peach Iced Tea",
+    "recipe": "Refreshing iced tea flavored with peach.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/peach-iced-tea-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 50.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee7a",
+    "name": "Berry Smoothie",
+    "recipe": "Smoothie made with mixed berries and yogurt.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/berry-smoothie-recipe-500x500.jpg",
+    "category": "beverage",
+    "price": 90.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee7b",
+    "name": "Caesar Salad",
+    "recipe": "Romaine lettuce, croutons, parmesan cheese, and Caesar dressing.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/caesar-salad-recipe-500x500.jpg",
+    "category": "salad",
+    "price": 120.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee7c",
+    "name": "Greek Salad",
+    "recipe": "Tomatoes, cucumbers, olives, feta cheese, and olive oil.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/greek-salad-recipe-500x500.jpg",
+    "category": "salad",
+    "price": 130.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee7d",
+    "name": "Caprese Salad",
+    "recipe": "Fresh mozzarella, tomatoes, basil, and balsamic reduction.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/caprese-salad-recipe-500x500.jpg",
+    "category": "salad",
+    "price": 140.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee7e",
+    "name": "Fruit Salad",
+    "recipe": "A mix of seasonal fruits, served with a honey dressing.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/fruit-salad-recipe-500x500.jpg",
+    "category": "salad",
+    "price": 110.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee7f",
+    "name": "Lemonade",
+    "recipe": "Refreshing drink made with fresh lemon juice and sugar.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/lemonade-recipe-500x500.jpg",
+    "category": "drink",
+    "price": 60.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee80",
+    "name": "Mango Lassi",
+    "recipe": "Smooth and creamy yogurt drink flavored with mango.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/mango-lassi-recipe-500x500.jpg",
+    "category": "drink",
+    "price": 80.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee81",
+    "name": "Iced Green Tea",
+    "recipe": "Refreshing green tea served over ice.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/iced-green-tea-recipe-500x500.jpg",
+    "category": "drink",
+    "price": 50.0
   },
   {
     "_id": "642c155b2c4774f05c36ee82",
-    "name": "Escalope de Veau",
-    "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "/images/home/category/img1.png",
-    "category": "offered",
-    "price": 12.5
+    "name": "Fruit Punch",
+    "recipe": "A mix of fruit juices served chilled.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/fruit-punch-recipe-500x500.jpg",
+    "category": "drink",
+    "price": 70.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee83",
+    "name": "Cobb Salad",
+    "recipe": "Grilled chicken, bacon, avocado, blue cheese, and mixed greens.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/cobb-salad-recipe-500x500.jpg",
+    "category": "salad",
+    "price": 150.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee84",
+    "name": "Quinoa Salad",
+    "recipe": "Quinoa, black beans, corn, bell peppers, and lime dressing.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/quinoa-salad-recipe-500x500.jpg",
+    "category": "salad",
+    "price": 160.0
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee85",
+    "name": "Spinach Salad",
+    "recipe": "Fresh spinach, strawberries, walnuts, and vinaigrette.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/spinach-salad-recipe-500x500.jpg",
+    "category": "salad",
+    "price": 140.0
   },
   {
     "_id": "642c155b2c4774f05c36ee86",
-    "name": "Escalope de Veau",
-    "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "/images/home/category/img1.png",
-    "category": "dessert",
-    "price": 12.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36ee9a",
-    "name": "Breton Fish Stew",
-    "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-    "image": "/images/home/category/img1.png",
-    "category": "pizza",
-    "price": 12.9
-  },
-  {
-    "_id": "642c155b2c4774f05c36eeab",
-    "name": "Goats Cheese Pizza",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img1.png",
+    "name": "Asian Noodle Salad",
+    "recipe": "Noodles, cabbage, carrots, and sesame dressing.",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/asian-noodle-salad-recipe-500x500.jpg",
     "category": "salad",
-    "price": 14.5
+    "price": 155.0
   },
-  {
-    "_id": "642c155b2c4774f05c36eeb1",
-    "name": "Fish Parmentier",
-    "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/home/category/img1.png",
-    "category": "soup",
-    "price": 9.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36eead",
-    "name": "Roast Duck Breast",
-    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/home/category/img1.png",
-    "category": "soup",
-    "price": 14.5
-  },
-  {
-    "_id": "642c155b2c4774f05c36eeae",
-    "name": "Tuna Niçoise",
-    "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-    "image": "/images/home/category/img1.png",
-    "category": "soup",
-    "price": 10.5
-  }
+  
+    {
+      "_id": "642c155b2c4774f05c36ee8b",
+      "name": "Tomato Soup",
+      "recipe": "Creamy tomato soup garnished with basil.",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/tomato-soup-recipe-500x500.jpg",
+      "category": "soup",
+      "price": 80.0
+    },
+    {
+      "_id": "642c155b2c4774f05c36ee8c",
+      "name": "Minestrone Soup",
+      "recipe": "Vegetable soup with pasta and beans.",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/minestrone-soup-recipe-500x500.jpg",
+      "category": "soup",
+      "price": 90.0
+    },
+    {
+      "_id": "642c155b2c4774f05c36ee8d",
+      "name": "Chicken Noodle Soup",
+      "recipe": "Classic soup with chicken, noodles, and vegetables.",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/chicken-noodle-soup-recipe-500x500.jpg",
+      "category": "soup",
+      "price": 100.0
+    },
+    {
+      "_id": "642c155b2c4774f05c36ee8e",
+      "name": "Lentil Soup",
+      "recipe": "Hearty soup made with lentils and vegetables.",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/lentil-soup-recipe-500x500.jpg",
+      "category": "soup",
+      "price": 85.0
+    }
+    
+
 ]

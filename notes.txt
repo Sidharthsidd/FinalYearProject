@@ -32,3 +32,4 @@ navbar
 //React Slick is a popular carousel component used in React applications for creating responsive sliders and carousels. It's based on the Slick library, which is a jQuery slider plugin, but React Slick has been adapted specifically for React, making it easier to integrate with modern React applications.
 for crweating responsive ,infinite looping ,autoplay custom  , arrow and ,dots ,multiple items , swipe to slide
 
+//testimonials =>adding reviews of the customers 
