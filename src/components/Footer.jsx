@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
       <footer className="footer xl:px-24 py-10 px-4 text-base-content">
         <aside>
-          <img src="/logo.png" alt="" className="w-24 h-24 rounded-full object-cover" />
+          <img src="/logo.png" alt="" height="100" width="100" />
           <p className="my-3 md:w-40">
             Savor the artistry where every dish is a culinary masterpiece
           </p>
@@ -31,7 +31,7 @@ const Footer = () => {
           <a className="link link-hover">Social media</a>
         </nav>
       </footer>
-        <hr />
+      <hr />
       <footer className="footer items-center xl:px-24 px-4 py-4 mt-2">
         <aside className="items-center grid-flow-col">
           <p>Copyright © 2023 - All right reserved</p>

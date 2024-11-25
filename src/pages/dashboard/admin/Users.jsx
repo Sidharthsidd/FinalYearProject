@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import { FaTrashAlt, FaUser, FaUsers } from "react-icons/fa";
 import Login from "../../../components/Login";
-// import useAxiosSecure from "../../../hooks/useAxiosSecure";
+import useAxiosSecure from "../../../hooks/useAxiosSecure";
 
 const Users = () => {
   const axiosSecure = useAxiosSecure();
