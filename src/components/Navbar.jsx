@@ -110,7 +110,7 @@ const Navbar = () => {
             </ul>
           </div>
           <a href="/">
-            <img src={logo} alt="" />
+            <img src={logo} alt=""   className="w-24 h-24 rounded-full object-cover"/>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">

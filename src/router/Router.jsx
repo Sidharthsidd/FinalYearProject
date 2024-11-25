@@ -8,6 +8,11 @@ import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import UserProfile from "../pages/dashboard/UserProfile";
 import CartPage from "../pages/menuPage/CartPage";
 import Login from "../components/Login";
+import DashboadLayout  from "../layout/DashboadLayout"
+import Dashboard from "../pages/dashboard/admin/Dashboard";
+import Users from "../pages/dashboard/admin/Users"
+
+
 
 const router = createBrowserRouter([
     {
@@ -43,7 +48,28 @@ const router = createBrowserRouter([
     {
       path: "/login",
       element: <Login/>
+    },
+    {
+      path: "dashboard",
+      element: (
+        <PrivateRoute>
+          <DashboadLayout />
+        </PrivateRoute>
+      ),
+      children: [
+        {
+          path: "",
+          element: <Dashboard />, // Default dashboard route
+        },
+        {
+          path: "users",
+          element: <Users />, // Nested users route
+        },
+      ],
     }
+    
+
+    
   ]);
 
   export default router;
