@@ -1,0 +1,62 @@
+//tailwind file 
+add extend vairables to use something  in globally 
+extend: {
+      colors:{
+        blue:"#3333cc",
+      }
+
+
+
+reacticons also used for the icons use 
+like from icons/fa:
+FaAngleLeft, FaAngleRight
+heartStar
+
+
+
+
+//daisiUI  same as a bootstrap library  for building a front end 
+things added from the daisuiUI :
+cards
+heart icon
+carousel
+navbar
+
+
+
+
+
+
+//reactslick third party library 
+//react slick is a react component for creating a carousel
+//React Slick is a popular carousel component used in React applications for creating responsive sliders and carousels. It's based on the Slick library, which is a jQuery slider plugin, but React Slick has been adapted specifically for React, making it easier to integrate with modern React applications.
+for crweating responsive ,infinite looping ,autoplay custom  , arrow and ,dots ,multiple items , swipe to slide
+
+//testimonials =>adding reviews of the customers 
+
+
+//used react-form-hook =>react-hook-form is a popular library in React for handling form validation and managing form state. It’s lightweight and focuses on minimizing re-renders,
+react-hook-form uses React's useRef and useState to handle form inputs and state. It’s primarily powered by the following hooks:
+useForm: This is the main hook that initializes form handling. It provides methods like register, handleSubmit, errors, etc.
+register: Used to register each input field in the form, binding it to the form state.
+handleSubmit: Used to handle the form submission. You pass it a callback function to handle the form data.
+errors: 
+
+npm i sweetalert2  => for the indstalling the alert or waarning like alerts to display  
+
+
+installing tanstack which is similar to the react redux tool
+
+
+//backend 
+
+
+backend is based on MVC model each model controler filess are made separatly 
+  crypto random key to generate the secreat token to login or 
+
+
+  adding inventory management in the project 
+  the restorent can add the price or food in the menu and delete it from the menu 
+
+
+website imbb is the web page where we can upload the images onthat and can save online through api and manully 

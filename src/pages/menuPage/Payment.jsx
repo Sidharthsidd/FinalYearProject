@@ -1,10 +1,10 @@
 import React from "react";
-// import { Elements } from "@stripe/react-stripe-js";
-// import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
+import { loadStripe } from "@stripe/stripe-js";
 import CheckoutForm from "./CheckoutForm";
 import useCart from "../../hooks/useCart";
 
-// const stripePromise = loadStripe(import.meta.env.VITE_Stripe_PK);
+const stripePromise = loadStripe(import.meta.env.VITE_Stripe_PK);
 
 const Payment = () => {
   const [cart] = useCart();

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
+import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import { FaPaypal } from "react-icons/fa";
 import useAxiosSecure from "../../hooks/useAxiosSecure";
 import useAuth from "../../hooks/useAuth";
@@ -25,6 +25,7 @@ const CheckoutForm = ({ price, cart }) => {
       setClientSecret(res.data.clientSecret);
     });
   }, [price, axiosSecure]);
+  
   const handleSubmit = async (event) => {
     event.preventDefault();
     if (!stripe || !elements) {
@@ -61,6 +62,8 @@ const CheckoutForm = ({ price, cart }) => {
           },
         },
       });
+ 
+
     if (confirmError) {
       console.log(confirmError);
     }
@@ -78,6 +81,7 @@ const CheckoutForm = ({ price, cart }) => {
         cartItems: cart.map((item) => item._id),
         menuItems: cart.map((item) => item.menuItemId),
       };
+      console.log("Client Secret:", res.data.clientSecret);
       console.log(paymentInfo);
       // send info to backend
       axiosSecure.post("/payments", paymentInfo).then((res) => {
