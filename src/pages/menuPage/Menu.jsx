@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Cards from "../../components/Cards";
 import { FaFilter } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 const Menu = () => {
   const [menu, setMenu] = useState([]);
   const [filteredItems, setFilteredItems] = useState([]);
@@ -14,7 +14,7 @@ const Menu = () => {
     // Fetch data from the backend
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:6001/menu");
+        const response = await fetch("https://finalyearprojectbackend-2gsq.onrender.com//menu");
         const data = await response.json();
         setMenu(data);
         setFilteredItems(data); // Initially, display all items
@@ -95,9 +95,9 @@ const Menu = () => {
               Greek Salad, Lasagne, Butternut Pumpkin, Tokusen Wagyu, Olivas
               Rellenas and more for a moderate cost
             </p>
-            <button className="bg-green font-semibold btn text-white px-8 py-3 rounded-full">
+           <Link to ="/cart-page"> <button className="bg-green font-semibold btn text-white px-8 py-3 rounded-full">
               Order Now
-            </button>
+            </button></Link>
           </div>
         </div>
       </div>

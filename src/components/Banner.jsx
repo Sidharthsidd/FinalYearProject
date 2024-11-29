@@ -1,6 +1,6 @@
 import React from "react";
 import bannerImg from "/images/home/banner.png";
-
+import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div className="max-w-screen-2xl container mx-auto xl:px-24 bg-gradient-to-r from-0% from-[#FAFAFA] to-[#FCFCFC] to-100%">
@@ -109,9 +109,9 @@ const Banner = () => {
             Where Each Plate Weaves a Story of Culinary Mastery and Passionate
             Craftsmanship
           </p>
-          <button className="bg-green font-semibold btn text-white px-8 py-3 rounded-full">
+          <Link to ="/menu">  <button className="btn bg-blue  px-8 py-4 font-semibold text-white rounded-full">
             Order Now
-          </button>
+          </button></Link>
         </div>
       </div>
     </div>
