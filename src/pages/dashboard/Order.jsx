@@ -12,7 +12,7 @@ const Order = () => {
     queryKey: ["orders", user?.email],
     queryFn: async () => {
       const res = await fetch(
-        `https://finalyearprojectbackend-2gsq.onrender.com//payments?email=${user?.email}`,
+        `https://finalyearprojectbackend-2gsq.onrender.com/payments?email=${user?.email}`,
         {
           headers: {
             authorization: `Bearer ${token}`,

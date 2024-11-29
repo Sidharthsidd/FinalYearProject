@@ -89,7 +89,7 @@ const router = createBrowserRouter([
         path: "update-menu/:id",
         element: <UpdateMenu />,
         loader: ({ params }) =>
-          fetch(`https://finalyearprojectbackend-2gsq.onrender.com//menu/${params.id}`),
+          fetch(`https://finalyearprojectbackend-2gsq.onrender.com/menu/${params.id}`),
       },
     ],
   },
