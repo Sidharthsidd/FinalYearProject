@@ -42,14 +42,10 @@ const Navbar = () => {
           <summary>Menu</summary>
           <ul className="p-2">
             <li>
-              <a href="/menu">All</a>
+              <Link to="/menu">All</Link>
             </li>
-            <li>
-              <a>Salad</a>
-            </li>
-            <li>
-              <a>Pizza</a>
-            </li>
+          
+           
           </ul>
         </details>
       </li>
@@ -59,9 +55,6 @@ const Navbar = () => {
           <ul className="p-2">
             <li>
               <a>Online Order</a>
-            </li>
-            <li>
-              <a>Table Booking</a>
             </li>
             <li>
               <a>Order Tracking</a>
