@@ -15,7 +15,7 @@ import AddMenu from "../pages/dashboard/admin/AddMenu";
 import ManageItems from "../pages/dashboard/admin/ManageItems";
 import UpdateMenu from "../pages/dashboard/admin/UpdateMenu";
 import Payment from "../pages/menuPage/Payment";
-
+import Chatbot from "../components/AiChat";
 const router = createBrowserRouter([
   // users
   {
@@ -60,6 +60,10 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />,
   },
+   {
+        path:"/chat",
+        element: <Chatbot />
+      },
   // Admin
   {
     path: "dashboard",
@@ -91,6 +95,8 @@ const router = createBrowserRouter([
         loader: ({ params }) =>
           fetch(`https://finalyearprojectbackend-2gsq.onrender.com/menu/${params.id}`),
       },
+     
+      
     ],
   },
 ]);
