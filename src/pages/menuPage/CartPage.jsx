@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 import { FaTrash } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import { FaRupeeSign } from "react-icons/fa";
 
 const CartPage = () => {
   const { user } = useContext(AuthContext);
@@ -185,7 +186,7 @@ const CartPage = () => {
                           +
                         </button>
                       </td>
-                      <td>${calculateTotalPrice(item).toFixed(2)}</td>
+                      <td><FaRupeeSign/>{calculateTotalPrice(item).toFixed(2)}</td>
                       <td>
                         <button
                           className="btn btn-sm border-none text-red bg-transparent"

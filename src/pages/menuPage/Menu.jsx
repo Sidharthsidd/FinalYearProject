@@ -144,7 +144,13 @@ const Menu = () => {
             >
               Drinks
             </button>
-          </div>
+          <button
+              onClick={() => filterItems("south meals")}
+              className={selectedCategory === "south meals" ? "active" : ""}
+              >
+              South meals
+            </button>
+              </div>
 
             {/* filter options */}
           <div className="flex justify-end mb-4 rounded-sm">

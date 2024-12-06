@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { FaHeart } from "react-icons/fa";
+import { FaHeart, FaRupeeSign } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../contexts/AuthProvider";
 import Swal from "sweetalert2";
@@ -101,18 +101,19 @@ const Cards = ({ item }) => {
         <Link to={`/menu/${item._id}`}>
           <h2 className="card-title">{item.name}!</h2>
         </Link>
-        <p>{item.des}</p>
-        <div className="card-actions justify-between items-center mt-2">
-          <h5 className="font-semibold">
-            <span className="text-sm text-red">Rs </span> {item.price}
-          </h5>
-          <button
-            onClick={() => handleAddToCart(item)}
-            className="btn bg-green text-white"
-          >
-            Add to Cart{" "}
-          </button>
-        </div>
+        <p>{item.recipe}</p>
+        <div className="card-actions flex justify-between items-center mt-2">
+  <div className="flex items-center">
+    <FaRupeeSign className="mr-1" />
+    <span className="text-md w-auto text-red font-semibold">{item.price}</span>
+  </div>
+  <button
+    onClick={() => handleAddToCart(item)}
+    className="btn bg-green text-white"
+  >
+    Add to Cart
+  </button>
+</div>
       </div>
     </div>
   );
