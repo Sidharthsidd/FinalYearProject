@@ -31,7 +31,7 @@ function Chatbot() {
 
   return (
     <div className="max-w-xl mx-auto p-6 bg-white shadow-lg rounded-lg">
-    <h1 className="text-3xl font-semibold text-center mb-6">Coding Money Chatbot</h1>
+    <h1 className="text-3xl font-semibold text-center mb-6">Foodie Ai</h1>
     <div className="chat-history space-y-4 mb-6 h-80 overflow-y-auto border-b border-gray-200 pb-4">
       {messages.map((msg, idx) => (
        <div
