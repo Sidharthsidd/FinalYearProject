@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FaEdit, FaTrashAlt } from "react-icons/fa";
 import Swal from "sweetalert2";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
-
+import { FaRupeeSign } from "react-icons/fa";
 const ManageItems = () => {
   const [menu, , refetch] = useMenu();
   const axiosSecure = useAxiosSecure();
@@ -69,7 +69,7 @@ const ManageItems = () => {
                     </div>
                   </td>
                   <td>{item.name}</td>
-                  <td>${item.price}</td>
+                  <td> <FaRupeeSign />{item.price}</td>
                   <td>
                     <Link to={`/dashboard/update-menu/${item._id}`}>
                       <button className="btn btn-ghost btn-xs bg-orange-500 text-white">
