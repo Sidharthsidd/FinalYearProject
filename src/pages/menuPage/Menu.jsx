@@ -127,7 +127,7 @@ const Menu = () => {
               Pizza
             </button>
             <button
-              onClick={() => filterItems("soup")}
+              onClick={() => filterItems("soups")}
               className={selectedCategory === "soup" ? "active" : ""}
             >
               Soups
