@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Cards from "../../components/Cards";
 import { FaFilter } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
+
 const Menu = () => {
   const [menu, setMenu] = useState([]);
   const [filteredItems, setFilteredItems] = useState([]);
