@@ -87,11 +87,11 @@ const DashboardLayout = () => {
                   <MdDashboard /> Dashboard
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/dashboard">
                   <FaShoppingBag /> Manage Bookings
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/dashboard/add-menu">
                   <FaPlusCircle />
