@@ -143,7 +143,7 @@ const Navbar = () => {
             onClick={toggleChatbot}
             className=" w-12 btn btn-ghost btn-circle lg:flex items-center justify-center mr-7"
           ><AiFillRobot />
-            <span className="text-lg font-bold text-grey">AI</span>
+            <span className="text-lg font-bold text-grey ">AI</span>
           </button>
 
           {/* Login Button */}
@@ -165,7 +165,7 @@ const Navbar = () => {
 
       {/* Floating Chatbot */}
       {showChatbot && (
-        <div className="fixed bottom-16 right-4 z-50 bg-white p-4 rounded-lg shadow-xl w-50 mr-6 top-7">
+        <div className="fixed bottom-16 right-4 z-50 bg-white p-4 rounded-lg shadow-xl w-50 mr-6 top-7  mt-7">
           <Chatbot className="fixed bottom-16 right-4 z-50 bg-white p-4 rounded-lg shadow-xl w-80 mr-6 top-7" />
         </div>
       )}
