@@ -17,7 +17,7 @@ const RecommandPage = () => {
   useEffect(() => {
     if (user && user.email) {
       // Fetch the suggested items based on the user's email
-      axios.get(`http://localhost:6001/suggested-items?email=${user.email}`)
+      axios.get(`https://finalyearprojectbackend-2gsq.onrender.com/suggested-items?email=${user.email}`)
         .then((response) => {
           setCategoryItems(response.data);
         })
@@ -43,7 +43,7 @@ const RecommandPage = () => {
       };
 
       axios
-        .post("http://localhost:6001/carts", cartItem)
+        .post("https://finalyearprojectbackend-2gsq.onrender.com/carts", cartItem)
         .then((response) => {
           refetch(); // refetch cart
           Swal.fire({

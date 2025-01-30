@@ -15,7 +15,7 @@ const CartPage = () => {
   useEffect(() => {
     if (user && user.email) {
       // Fetch cart items from the backend based on user's email
-      axios.get(`http://localhost:6001/carts/${user.email}`)
+      axios.get(`https://finalyearprojectbackend-2gsq.onrender.com/carts/${user.email}`)
         .then((response) => {
           setCartItems(response.data);
         })
