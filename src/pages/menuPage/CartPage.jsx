@@ -1,19 +1,29 @@
-import React, { useContext, useEffect, useState } from "react";
-import useCart from "../../hooks/useCart";
-import { AuthContext } from "../../contexts/AuthProvider";
-import Swal from "sweetalert2";
-import { FaTrash } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import axios from "axios";
+import React, { useContext, useState, useEffect } from 'react'; 
+import useCart from '../../hooks/useCart';
+import { FaTrash } from 'react-icons/fa';
+import Swal from 'sweetalert2';
+import { AuthContext } from '../../contexts/AuthProvider';
+import axios from 'axios';
 import { FaRupeeSign } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const CartPage = () => {
-  const { user } = useContext(AuthContext);
   const [cart, refetch] = useCart();
-  const [cartItems, setCartItems] = useState([]);
-  // console.log(cartItems)
+  const { user } = useContext(AuthContext);
+  const [cartItems, setCartItems] = useState(cart);
 
-  // Calculate the total price for each item in the cart
+  useEffect(() => {
+    if (user && user.email) {
+      // Fetch cart items from the backend based on user's email
+      axios.get(`http://localhost:6001/carts/${user.email}`)
+        .then((response) => {
+          setCartItems(response.data);
+        })
+        .catch((error) => {
+          console.error("Error fetching cart items:", error);
+        });
+    }
+  }, [user, cart]);
   const calculateTotalPrice = (item) => {
     return item.price * item.quantity;
   };
@@ -47,7 +57,6 @@ const CartPage = () => {
       console.error("Error updating quantity:", error);
     }
   };
-  // Handle quantity decrease
   const handleDecrease = async (item) => {
     if (item.quantity > 1) {
       try {

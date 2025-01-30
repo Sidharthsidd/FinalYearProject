@@ -34,7 +34,7 @@ const Cards = ({ item }) => {
       };
 
       axios
-        .post("https://finalyearprojectbackend-2gsq.onrender.com/carts", cartItem)
+        .post("http://localhost:6001/carts", cartItem)
         .then((response) => {
           console.log(response);
           if (response) {

@@ -54,12 +54,12 @@ const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-      // console.log(currentUser);
+      console.log(currentUser);
       setUser(currentUser);
       if (currentUser) {
         const userInfo = { email: currentUser.email };
         axios.post("https://finalyearprojectbackend-2gsq.onrender.com/jwt", userInfo).then((response) => {
-          //   console.log(response.data.token);
+            console.log(response.data.token);
 
           if (response.data.token) {
             localStorage.setItem("access-token", response.data.token);
