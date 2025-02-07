@@ -48,9 +48,9 @@ function Chatbot() {
                 ? "bg-blue-500 text-white self-end"
                 : "bg-gray-200 text-black self-start"
             }`}
-            dangerouslySetInnerHTML={{
+{/*             dangerouslySetInnerHTML={{
               __html: msg.text.replace(/\n/g, "<br />"),
-            }}
+            }} */}
           />
         ))}
       </div>
