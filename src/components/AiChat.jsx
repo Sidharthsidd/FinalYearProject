@@ -7,10 +7,10 @@ function Chatbot() {
 
   const sendMessage = async (e) => {
     e.preventDefault();
-    if (!input) return;
+    if (!input.trim()) return;
 
-    const userMessage = { role: "user", text: input };
-    setMessages([...messages, userMessage]);
+    // Correctly update state with the latest messages
+    setMessages((prevMessages) => [...prevMessages, { role: "user", text: input }]);
     setInput("");
     setLoading(true);
 
@@ -23,14 +23,21 @@ function Chatbot() {
           body: JSON.stringify({ userInput: input }),
         }
       );
+
+      if (!response.ok) throw new Error("Failed to fetch response");
+
       const data = await response.json();
-      setMessages([
-        ...messages,
-        userMessage,
+
+      setMessages((prevMessages) => [
+        ...prevMessages,
         { role: "bot", text: data.response },
       ]);
     } catch (error) {
       console.error("Error:", error);
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        { role: "bot", text: "Sorry, I encountered an error. Please try again!" },
+      ]);
     } finally {
       setLoading(false);
     }
@@ -38,20 +45,19 @@ function Chatbot() {
 
   return (
     <div className="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-lg h-[80vh] flex flex-col">
-      <h1 className="text-2xl font-semibold text-center mb-4">Foodie Ai</h1>
+      <h1 className="text-2xl font-semibold text-center mb-4">Foodie AI</h1>
       <div className="chat-history flex-1 overflow-y-auto space-y-3 mb-4 border-b border-gray-200 pb-3">
         {messages.map((msg, idx) => (
           <div
             key={idx}
-            className={`text-sm leading-6 p-3 rounded-lg max-w-3/4 ${
+            className={`text-sm leading-6 p-3 rounded-lg max-w-[75%] ${
               msg.role === "user"
                 ? "bg-blue-500 text-white self-end"
                 : "bg-gray-200 text-black self-start"
             }`}
-{/*             dangerouslySetInnerHTML={{
-              __html: msg.text.replace(/\n/g, "<br />"),
-            }} */}
-          />
+          >
+            {msg.text}
+          </div>
         ))}
       </div>
       {loading && <div className="text-center text-gray-500 mb-3">Loading...</div>}
@@ -64,7 +70,8 @@ function Chatbot() {
         />
         <button
           type="submit"
-          className="px-4 py-2 bg-blue-500 text-white text-base rounded-md hover:bg-blue-600 focus:outline-none"
+          className="px-4 py-2 bg-blue-500 text-white text-base rounded-md hover:bg-blue-600 focus:outline-none disabled:bg-gray-400"
+          disabled={loading}
         >
           Send
         </button>
