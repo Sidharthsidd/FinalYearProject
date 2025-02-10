@@ -51,40 +51,42 @@ const AuthProvider = ({ children }) => {
       photoURL: photoURL,
     });
   };
+  
+useEffect(() => {
+  const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
+    console.log(currentUser);
+    setUser(currentUser);
 
- useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
-      console.log(currentUser);
-      setUser(currentUser);
-      if (currentUser) {
+    if (currentUser) {
+      try {
         const userInfo = { email: currentUser.email };
-        axios.post("http://localhost:6001/jwt", userInfo).then((response) => {
-            console.log(response.data.token);
 
-          
+        // First API call: Get JWT token
+        const response = await axios.post("http://localhost:6001/jwt", userInfo);
+        console.log("JWT Token:", response.data.token);
 
-          if (response.data.token) {
-            localStorage.setItem("access-token", response.data.token);
-          }
-          // Fetch the email from Firebase backend
-          const emailResponse = await axios.post("https://session-handling.onrender.com", { id_token: currentUser.accessToken });
-          console.log("Email sent to backend:", emailResponse.data.email);
-        } catch (error) {
-          console.error("Error sending data to backend:", error);
+        if (response.data.token) {
+          localStorage.setItem("access-token", response.data.token);
         }
-      
+
+        // Second API call: Send token for session handling
+        const emailResponse = await axios.post("https://session-handling.onrender.com", {
+          id_token: currentUser.accessToken,
         });
-      } else {
-        localStorage.removeItem("access-token");
+        console.log("Email sent to backend:", emailResponse.data.email);
+      } catch (error) {
+        console.error("Error sending data to backend:", error);
       }
+    } else {
+      localStorage.removeItem("access-token");
+    }
 
-      setLoading(false);
-    });
+    setLoading(false);
+  });
 
-    return () => {
-      return unsubscribe();
-    };
-  }, []);
+  return unsubscribe;
+}, []);
+
 
   const authInfo = {
     user,
