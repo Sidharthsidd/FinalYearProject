@@ -52,28 +52,27 @@ const AuthProvider = ({ children }) => {
     });
   };
 
-  useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+ useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
       console.log(currentUser);
       setUser(currentUser);
       if (currentUser) {
         const userInfo = { email: currentUser.email };
-        axios.post("https://finalyearprojectbackend-2gsq.onrender.com/jwt", userInfo).then((response) => {
+        axios.post("http://localhost:6001/jwt", userInfo).then((response) => {
             console.log(response.data.token);
+
+          
 
           if (response.data.token) {
             localStorage.setItem("access-token", response.data.token);
           }
           // Fetch the email from Firebase backend
-
-          axios.post("https://session-handling.onrender.com", { id_token: currentUser.accessToken }).then((response) => {
-            console.log(response.data.token);
-
-          if (response.data.token) {
-            localStorage.setItem("access-token", response.data.token);
-          }
-
-          
+          const emailResponse = await axios.post("https://session-handling.onrender.com", { id_token: currentUser.accessToken });
+          console.log("Email sent to backend:", emailResponse.data.email);
+        } catch (error) {
+          console.error("Error sending data to backend:", error);
+        }
+      
         });
       } else {
         localStorage.removeItem("access-token");
