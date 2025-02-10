@@ -62,7 +62,7 @@ useEffect(() => {
         const userInfo = { email: currentUser.email };
 
         // First API call: Get JWT token
-        const response = await axios.post("http://localhost:6001/jwt", userInfo);
+        const response = await axios.post("https://finalyearprojectbackend-2gsq.onrender.com/jwt", userInfo);
         console.log("JWT Token:", response.data.token);
 
         if (response.data.token) {
