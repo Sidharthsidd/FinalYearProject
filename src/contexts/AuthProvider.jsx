@@ -65,7 +65,7 @@ const AuthProvider = ({ children }) => {
             localStorage.setItem("access-token", response.data.token);
           }
           // Fetch the email from Firebase backend
-          const emailResponse = await axios.post("https://session-handling.onrender.com", { id_token: currentUser.accessToken });
+          const emailResponse =  axios.post("https://session-handling.onrender.com", { id_token: currentUser.accessToken });
           console.log("Email sent to backend:", emailResponse.data.email);
         } catch (error) {
           console.error("Error sending data to backend:", error);
